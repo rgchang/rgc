@@ -1,0 +1,275 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  cursor: default;
+  margin: 0;
+}
+
+.list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 25px;
+  outline: none;
+  letter-spacing: 3px;
+  font-size: 16px;
+  transition: .3s ease-out;
+  font-weight: 700;
+}
+
+section {
+  width: 98.9vw;
+  height: 70vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'poiret one';
+}
+
+body {
+  background-color: #f8f7f7;
+}
+body header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header h1 {
+  font-family: 'cookie';
+  font-size: 100px;
+  padding: 20px 40px;
+  border-top: none;
+  color: #f03838;
+  text-shadow: 2px 3px lightgrey;
+}
+body nav:first-of-type ul {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body nav:first-of-type ul li {
+  list-style: none;
+  color: grey;
+  cursor: default;
+}
+body nav:first-of-type ul h2 {
+  color: white;
+  font-size: 50px;
+  font-family: 'poiret one';
+  letter-spacing: 7px;
+  background-color: #02b2de;
+  padding: 0 10px 16px 17px;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px #332e2e;
+}
+body nav:first-of-type ul .medium {
+  font-size: 30px;
+  color: #02b2de;
+}
+body nav:first-of-type ul .large {
+  font-size: 45px;
+  color: #f03838;
+}
+body nav:first-of-type ul .xl {
+  font-size: 75px;
+}
+body nav:last-of-type {
+  margin: 60px 0 40px;
+}
+body nav:last-of-type ul {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body nav:last-of-type ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+body nav:last-of-type ul li a {
+  text-decoration: none;
+  margin: 10px 30px;
+  color: #f03838;
+  font-family: 'poiret one';
+  font-size: 17px;
+  transition: .3s ease-out;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body nav:last-of-type ul li a:hover {
+  color: #02b2de;
+}
+body nav:last-of-type ul li:nth-of-type(1) {
+  border-bottom: 5px solid grey;
+}
+body nav:last-of-type ul li:nth-of-type(2) {
+  border-bottom: 5px solid #02b2de;
+}
+body nav:last-of-type ul li:nth-of-type(3) {
+  border-bottom: 5px solid #b93131;
+}
+body nav:last-of-type ul li:nth-of-type(4) {
+  border-bottom: 5px solid #332e2e;
+}
+body #about-me {
+  background-color: #332e2e;
+}
+body #about-me h3 {
+  font-size: 50px;
+  color: white;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 2px #b93131;
+}
+body #about-me h3:nth-of-type(2) {
+  margin: 20px 0 10px;
+}
+body #about-me h3:nth-of-type(2) span#end {
+  font-size: 50px;
+  border-top: 10px solid #02b2de;
+  border-bottom: 10px solid #02b2de;
+  font-family: 'cookie';
+  letter-spacing: 7px;
+  color: #b93131;
+  font-weight: 700;
+  text-shadow: none;
+}
+body #about-me p {
+  color: #02b2de;
+  font-size: 28px;
+  margin-top: 40px;
+  letter-spacing: 5px;
+  font-family: 'cookie';
+}
+body #about-me button {
+  background-color: #332e2e;
+  border: 2px solid white;
+  color: white;
+}
+body #about-me button:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  color: white;
+}
+body #portfolio {
+  background-color: #b93131;
+}
+body #portfolio #icon {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body #portfolio #icon i {
+  color: white;
+  font-size: 300px;
+  text-shadow: 1px 3px 5px #332e2e;
+}
+body #portfolio #icon h3 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+body #portfolio #icon .amazing {
+  color: #02b2de;
+  font-family: 'cookie';
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-shadow: 1px 2px #332e2e;
+}
+body #portfolio .container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+body #portfolio .container button {
+  background-color: #b93131;
+  border: 2px solid white;
+  color: white;
+}
+body #portfolio .container button:hover {
+  background-color: rgba(51, 46, 46, 0.2);
+}
+body #contact {
+  height: 80vh;
+}
+body #contact h3 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #332e2e;
+}
+body #contact button {
+  color: #332e2e;
+  margin-top: 50px;
+  background-color: #f8f7f7;
+  border: 2px solid #332e2e;
+  font-family: 'cookie';
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+body #contact button:hover {
+  background-color: #332e2e;
+  color: #f8f7f7;
+}
+body #contact hr {
+  border: 1px solid #332e2e;
+  width: 55%;
+  margin: 40px 0;
+}
+body #contact h4 {
+  margin: 20px 0 30px;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body #contact #icons {
+  margin-bottom: 10px;
+}
+body #contact #icons i {
+  font-size: 30px;
+  margin: 0 10px;
+}
+body #contact #a {
+  margin-top: 17px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #332e2e;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
